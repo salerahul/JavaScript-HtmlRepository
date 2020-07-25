@@ -1,0 +1,30 @@
+
+h1 {
+    text-align: center;
+}
+
+p {
+    word-spacing: 5px;
+    line-height: 2;
+    font-size: x-large;
+    color: blue;
+    width: 300px;
+    text-align: justify;
+}
+
+body {
+
+}
+
+#anchor {
+    color: chartreuse;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#span {
+    color: darkgreen;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}

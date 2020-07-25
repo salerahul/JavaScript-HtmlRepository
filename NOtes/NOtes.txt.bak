@@ -1,0 +1,209 @@
+Input Elements in HTML5 :
+==========================
+it is used to takes the input from the user.
+These input can be of different types like
+	- Normal text
+	- Password
+	- Colors
+	- Numbers etc.
+
+To create input element we use <input> tag, and it is self closing tag.
+input tag contains differnt attributes like 
+- id : which can be used to specify unique identity for an element.
+- name : Which can be used to group multiple controls into a group.
+- class : Used to specify css class
+- type : used to specify the type of input control etc.
+- Value it is ueed to get the content it is associated to be.
+Syntax : <input type="" id="" name="">
+
+<div> :: it is a block level elements used to create sections for the page
+<span> :: It is an inline element which can be used to inject text in between any content.
+
+7/4/2020
+Page Structure of a HTML Document
+=================================
+
+
+7/10/2020
+===========
+Text properties
+===============
+ - Like the font properties we have the text properties like
+	-text-align
+	-text-decoration
+	-text-transformation
+	- text-indent
+	- line-height
+
+
+
+Link Prooperties :
+=================
+This propperties are used to apply the styles for the links.
+this properties are also known as pseudo classes.
+	- a:link
+	- a.visited
+	- a:hover
+	- a:active
+
+7/14/2020
+===========
+Padding properties:
+====================
+It is nothing but the space bet the content and border
+
+Border :: 
+=========
+	Can be used to apply for the Html elements 
+	border-color, border-radius
+
+Margin :: Can be used to set margin and it is nothing but the space bet the border and outside of the element.
+
+Cursor:
+
+7/15/2020
+==========
+Developing Web pages by using HTML5 & CSS3:
+===========================================
+	-Semantic element
+	- Web forms
+	- Web forms 2.0
+	- Graphic tags
+	- HTML5 API
+	- new style (CSS3) etc.
+
+Semantic tags:
+================
+- HTML5 was introduced a new set of tag which can be used to provide meanigful structure for a web app design.
+-These tags are not provide any pre-define style, it just used to define structure.
+-We have tags like header, footer, nav , aside, article, footer etc.
+
+7/16/2020
+============
+Web Forms
+==========
+HTML 4.0 Tags--	<form>, <input>, <textarea>, <select>, <option> etc.
+Input tag can be used in different formats like
+	-text, password, checkbox, radio ,hidden, file, button, reset
+
+HTML5.0 
+==========
+	- number
+	- color
+	- email
+	- range
+	- datetime
+	- month
+	- time etc
+
+DataList:
+==========
+DataList = TextBox + DropDownList
+it provides list of options
+
+Math Markup Language
+=====================
+	<math>
+
+	a2+b2+2ab;
+
+	tags		Description
+	<math>		Starting of Math expression
+	<mi>		Math identifiers
+	<mn>		Math numbers
+	<msup>		Math Super script
+	<msqrt>		Math square root
+	&minus		Subtraction
+	&divide		Divide
+	&ne		Not equal
+	&lt		less than
+	&gt		greater than
+	&plusn		plus or minus
+
+7/17/2020
+==============
+Multimedia tags
+===============
+	Apart from the regular tags in html, to represent the multimedia content
+	like audio, video, withiin the web app. we use HTML5 multimedia tags.
+	- <Audio>
+	- <Video>
+	- <Source>
+
+	eg.
+	<audio>
+	<source src="" "type">
+	<source src="" type="">
+	Text will be displayed when audio format is not supported
+	<audio/>
+
+	
+	<video>
+	<source src="" "type">
+	<source src="" type="">
+	Text will be displayed when audio format is not supported
+	<video/>
+
+	Attributes:
+	Controls:: Add the controls for the audio and video
+	autoplay
+	==========
+		Whent the page loads then automatically it play video/Audio
+	Muted::
+	========
+		Usede to anable the mute option
+	loop
+	==========
+		Whenever it completes, it will start from begining.
+	Height :: Used to provide the height.
+	widh::
+
+7/21/2020
+==========
+Animations in CSS3
+===================
+	It is basically used to change an element gradually from one style to another based on time period..
+	we can apply any no of style as per requirement.
+	to work with this we use "keyframes" to do the animations.
+	
+	Step1:
+	@keyframe animationName{
+		from{prop : value, prop:value...}
+		to{prop:value, prop:value}
+	}
+
+	Step2 :
+	=======
+	selector{
+		
+	}
+
+	Fileter in CSS3
+	==================
+	This property is used to apply to visual affects like blurness, saturation, etc to an element.
+	- These propeties are not supported in IE, Edge12v, and safari.
+	- blur, contrast, brightness, invert, opacity, saturate etc.
+
+
+Responsive Web design
+=====================
+	It is used to a web page based on screen size so that same page can be 
+	used across multiple devices like Mobile, Desktop, Laptop, and tablet. etc.
+	-To implement responsive web design CSS3 we use "media Queries."
+
+	Media Queries
+	==============
+
+7/22/2020
+===========
+Display
+===========
+	
+
+	Position 
+	==========
+	position is used to how Html element is positioned in the web page
+	- static: default position
+	relative : This position relative to its own element.
+	- absolute : This relative to its parent element.
+

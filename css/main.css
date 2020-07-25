@@ -1,0 +1,38 @@
+.c1 {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin: 0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li:hover{
+    background-color: dodgerblue;
+}
+ nav {
+     background-color: deeppink;
+     height: 50px;
+ }
+
+ article {
+     border: 2px solid blue;
+     border-radius: 15px;
+     margin: 5px;
+     padding: 5px;
+ }
+
+ footer {
+    background-color: lightblue;
+    color: green;
+    height: 80px;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+ }

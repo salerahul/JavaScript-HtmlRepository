@@ -1,0 +1,94 @@
+7/18/2020
+==========
+forEacg() method.
+
+arrayObject.forEach(functionn)
+ for each element present in array apply specified function.
+
+var numbers = [10, 20, 30, 40, 50];
+ numbers.forEach(function(){alert(x)})
+
+ numbers.forEach(show(x));
+
+ for everu nu,ber present in array apply show function.
+
+
+How to delete array elemenr based on array index.
+
+pop()
+shift() ==> always remove first element.
+splice(index, numberofelements) ==>
+
+array is mutable
+String is immutable.
+
+Once we create string object we cant perform any changes to that object.
+if we are trying to perform any changes then with those changes a new object will be created.. 
+
+1. Write a js function an array as an argument and print its element in reverse order.
+2. Write a js function to check whether all elements are identical or not.
+3. Write a js function of given array.
+4. Write  a js function sum of elements in the given array.
+
+7/19/2020
+==========
+Book management system 
+=======================
+add, list, exit, delete
+console.log("Available books are");
+console.log(books);
+
+
+JavaScript is object oriented programming language?
+Ans ==> It is not object oriented programming language.
+it is object based programming language.
+
+Arrays::
+=============
+10, 20, 30, 40
+"sunny", "bunny"
+if we want to represent 
+
+
+Objects
+============
+Of we want to reprent indivisual object as key value pair then we should go for object.
+
+7/21/2020
+===========
+ DOM ===> Document Object Model
+
+ 7/22/2020
+ ==========
+ By using DOM javascript can communicates with HTML and CSS.
+
+
+ JS========>HTML
+ var mhyh1=document.querySelector("h1");
+
+ document object contain total html page.
+
+various properties of document object.
+======================================
+ document.url
+ document.head
+ document.body
+ document.links
+
+===========================
+Impportant DOM Methods
+------------------------
+id 
+class
+
+
+To grab html element into javascript we hava to use following method on dom.
+
+document.getElementById("special");
+document.getElementByClassName();
+document.getElementByTagName();
+document.querySelector();
+document.querySelectorAll();
+
+7/25/2020
+===========
