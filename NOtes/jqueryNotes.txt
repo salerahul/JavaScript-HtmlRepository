@@ -1,0 +1,61 @@
+7/29/2020
+=============
+$('img').css({width : '150px', height: '150px'})
+
+To change value of src attribute 
+$('img:nth-of-type(2)').attr('src'. 'https://images.unsplash.com/photo-1595625380984-b9271a338bab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60')
+
+7/30/2020
+==========
+
+important method of jquery
+------------------------------
+text();
+html();
+attr();
+val();
+
+val();
+	- to get the current value of the first matched input.
+
+	val() ===> getter method
+
+	$('input').val();
+
+addClass, removeClass(), & toggleClass();
+
+to add high class to every li tag $('li').addClass('high')
+
+to remove high class from even li tags
+
+$('li:nth-of-type(even)').removeClass('high')
+
+$('li:nth-of-type(even)').addClass('low')
+
+
+$('li:nth-of-type(2)').addClass('done')
+
+$('li').toggleClass('high');
+           
+
+Event handling by using jquery
+---------------------------------
+
+a.addEventListener("click", ()=>{
+
+});
+
+jquery methods of event handling
+
+1. click();
+2. keypress();
+3.on(); ====> most commonly used method.
+
+to add click listenet to html elements.
+
+$('h1').click( ()=>{
+	alert("hi rahul");
+})
+
+8/1/2020
+-------------
